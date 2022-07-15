@@ -15,8 +15,8 @@ const Entrepreneur = () => {
             />
           </span>
         </div>
-        <div className="w-2/3 mx-auto md:m-auto">
-          <h3 className="mb-8 text-5xl font-bold text-white font-poppins">
+        <div className="w-[80%] mx-auto md:w-2/3 md:m-auto">
+          <h3 className="mb-8 text-[36px] md:text-[41px] font-bold text-white font-poppins">
             Entrepreneur, speaker, author, community advocate
           </h3>
           <p className="pb-6 text-base font-normal text-white font-poppins">
