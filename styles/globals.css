@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "North Coast";
-  src: url('./North\ Coast\ Italic.woff');
+  src: url('/fonts/North\ Coast\ Italic.woff');
   font-weight: normal;
   font-style: italic;
 }
