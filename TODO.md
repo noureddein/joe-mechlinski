@@ -1,0 +1,1 @@
+- [ ] make the social media links redirected
