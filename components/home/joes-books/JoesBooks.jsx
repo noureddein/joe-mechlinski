@@ -81,9 +81,9 @@ const JoesBooks = () => {
 
 const style = {
   section:
-    " relative before:bg-[url('../public/images/pattern.svg')] before:absolute before:w-32 before:h-64 before:-top-28 before:left-0 before:content-[''] before:bg-contain before:bg-no-repeat font-poppins after:content-[''] after:absolute after:-bottom-24 after:right-0 after:bg-[url(/images/slider-pattern.svg)] after:w-28 after:h-28 after:bg-no-repeat after:z-20 after:bg-contain md:after:w-40 md:after:h-40 ",
+    " relative before:bg-[url('/images/pattern.svg')] before:absolute before:w-32 before:h-64 before:-top-28 before:left-0 before:content-[''] before:bg-contain before:bg-no-repeat font-poppins after:content-[''] after:absolute after:-bottom-24 after:right-0 after:bg-[url(/images/slider-pattern.svg)] after:w-28 after:h-28 after:bg-no-repeat after:z-20 after:bg-contain md:after:w-40 md:after:h-40 ",
   title:
-    "relative text-2xl text-center font-poppins before:absolute before:bg-[url('../public/images/header.svg')] before:-bottom-5 before:content-[''] before:w-64 before:h-10   before:bg-no-repeat before:bg-contain font-bold ",
+    "relative text-2xl text-center font-poppins before:absolute before:bg-[url('/images/header.svg')] before:-bottom-5 before:content-[''] before:w-36 before:h-10   before:bg-no-repeat before:bg-contain font-bold",
   booksContainer:
     "relative flex flex-col md:flex-row mt-12 justify-evenly md:before:absolute md:before:content-[''] md:before:w-px md:before:h-80 md:before:bg-slate-500 md:before:top-10",
 };
