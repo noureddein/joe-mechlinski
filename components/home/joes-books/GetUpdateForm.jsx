@@ -14,7 +14,7 @@ class GetUpdateForm extends Form {
     const { input, button } = style;
     return (
       <div className="flex flex-col items-center justify-center mt-8">
-        <div className=" w-full flex flex-col justify-center items-center	 relative before:absolute before:content-[''] before:bg-[url('../public/images/arrow.svg')] before:w-32 before:h-32 before:top-0 before:left-1/3 before:bg-no-repeat before:bg-contain">
+        <div className=" w-full flex flex-col justify-center items-center	 relative before:absolute before:content-[''] before:bg-[url('/images/arrow.svg')] before:w-32 before:h-32 before:top-0 before:left-1/3 before:bg-no-repeat before:bg-contain">
           <h3 className="z-10 font-poppins text-[#5541D9] font-semibold text-4xl italic p-1">
             “Who Says”{" "}
           </h3>
