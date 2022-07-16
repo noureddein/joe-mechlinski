@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* @import url('fonts.cdnfonts.com/css/north-coast'); */
+/* @import url('http://fonts.cdnfonts.com/css/north-coast'); */
 
 
 
@@ -12,14 +12,18 @@
 
 @layer base{
   @font-face {
-    font-family: "North Coast";
-    src: url('/fonts/NorthCoastItalic.woff2') format('woff2'),
-    url('/fonts/NorthCoastItalic.woff') format('woff'),
-    url('/fonts/NorthCoastItalic.otf') format('otf'),
-    url('/fonts/NorthCoastItalic.ttf') format('truetype');
+    font-family: 'North Coast';
+    font-style: normal;
     font-weight: 400;
-    font-style: italic;
-  }
+    src: local('North Coast'), url('https://fonts.cdnfonts.com/s/46894/North Coast.woff') format('woff');
+}
+@font-face {
+    font-family: 'North Coast';
+    font-style: normal;
+    font-weight: 400;
+    src: local('North Coast'), url('https://fonts.cdnfonts.com/s/46894/North Coast Italic.woff') format('woff');
+}
+
 }
 
 
