@@ -10,16 +10,21 @@
 @import './embla.css';
 
 
-@layer utilities{
+@layer base{
   @font-face {
     font-family: "North Coast";
-    src: url('/fonts/NorthCoastItalic.woff2') format('truetype'),
-    url('/fonts/NorthCoastItalic.woff') format('truetype');
+    src: url('/fonts/NorthCoastItalic.woff2') format('woff2'),
+    url('/fonts/NorthCoastItalic.woff') format('woff');
     /* url('/fonts/NorthCoastItalic.otf'), */
     /* url('/fonts/NorthCoastItalic.ttf'); */
-    font-weight: normal;
+    font-weight: 400;
     font-style: italic;
   }
+}
+
+
+@layer utilities{
+  
   *{
     transition:all .3s;
   }
