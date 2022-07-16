@@ -14,9 +14,9 @@
   @font-face {
     font-family: "North Coast";
     src: url('/fonts/NorthCoastItalic.woff2') format('woff2'),
-    url('/fonts/NorthCoastItalic.woff') format('woff');
+    url('/fonts/NorthCoastItalic.woff') format('woff'),
     /* url('/fonts/NorthCoastItalic.otf'), */
-    /* url('/fonts/NorthCoastItalic.ttf'); */
+    url('/fonts/NorthCoastItalic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
   }

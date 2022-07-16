@@ -18,7 +18,8 @@ const Header = ({ bgColor, isTransparent }) => {
     } else {
       setNavBarBg("bg-transparent");
     }
-  }, [clientWindowHeight]);
+    console.log(";-----");
+  }, [clientWindowHeight, isTransparent]);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);

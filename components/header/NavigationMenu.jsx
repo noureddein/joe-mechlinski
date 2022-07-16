@@ -47,7 +47,7 @@ const NavigationMenu = () => {
             return (
               <li key={idx} className="px-4 ">
                 <Link href={item[1]}>
-                  <a className=""> {item[0]}</a>
+                  <a> {item[0]}</a>
                 </Link>
               </li>
             );
