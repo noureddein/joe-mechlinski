@@ -3,10 +3,10 @@
 
 @font-face {
   font-family: "North Coast";
-  src: 
-  /* url('/fonts/NorthCoastItalic.woff'), */
+  src: url('/fonts/NorthCoastItalic.woff2'),
+  url('/fonts/NorthCoastItalic.woff');
   /* url('/fonts/NorthCoastItalic.otf'), */
-  url('/fonts/NorthCoastItalic.ttf');
+  /* url('/fonts/NorthCoastItalic.ttf'); */
   font-weight: normal;
   font-style: italic;
 }
